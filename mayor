@@ -1,0 +1,14 @@
+
+package ejer41C5;
+public class mayor {
+    public static double buscar(double[] numeros, int tamaño){
+        double mayor = 0;
+        for (int i=0; i<tamaño; i++){
+            if (mayor<numeros[i]){
+                mayor = numeros[i];
+            }
+        }
+        return mayor;
+    }
+    
+}
