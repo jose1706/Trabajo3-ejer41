@@ -1,0 +1,8 @@
+
+package ejer41C5;
+public class Main41 {
+    public static void main(String[] args) {
+        VentanaEjer41 v6 = new VentanaEjer41();
+        v6.setVisible(true);
+    }
+}
